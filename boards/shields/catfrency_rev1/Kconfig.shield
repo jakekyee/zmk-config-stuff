@@ -1,0 +1,5 @@
+config SHIELD_CATFRENCY_REV1_LEFT
+    def_bool $(shields_list_contains,catfrency_rev1_left)
+
+config SHIELD_CATFRENCY_REV1_RIGHT
+    def_bool $(shields_list_contains,catfrency_rev1_right)
